@@ -1,0 +1,410 @@
+/**
+ * Index Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(83, 21, 21);
+    background-image: url("../images/so-white.png");
+    background-size: cover;
+  }
+
+  #toplayout {
+    clear: none;
+    margin: 0px auto;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding:0px;
+    border-bottom: solid rgb(202, 202, 202) 3px;
+  }
+  
+  #headlayout {
+    background-color: #ffffff; 
+  }
+
+  #name, #namec {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    padding: 35px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width:330px;
+    float: left;
+    margin: 0px 0px 0px 15%;
+  }
+
+  .headlist {
+    color: #777777;
+    float: right;
+    margin: 0px 17% 0px 0px;
+  }
+
+  .headlist ul{
+     list-style: none;
+     margin-right: 10% px;
+     margin-top: 40px;
+  }
+
+  #abouthead {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  #portfoliohead {
+    display: inline;
+    margin-left: 20px;
+  }
+ 
+  #contacthead {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .link {
+   text-decoration: none;
+   color: #777777;
+  }
+
+  #bodylayout {
+    background-color:#ffffff;
+    width: 70%;
+    margin: 20px 15% 55px 15%;
+  }
+
+  #aboutme {
+    color: #777777;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    height: 850px;
+    border: rgb(233, 233, 233) solid 1px;
+  }
+ 
+  #h21 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    text-align: left;
+  }
+
+  #p1 {
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  #p2 {
+    text-align: left;
+    float: left;
+    font-size: 16px;
+  }
+
+  #p3 {
+    text-align: left;
+    float: left;
+    font-size: 16px;
+  }
+
+  #profilepic {
+    text-align: left;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }  
+
+  #footlayout {
+    background-color: #777777;
+    color: #ffffff;
+    padding: 40px 0px 15px;
+    margin: 25px 0px 0px 0px;
+    font-size:12px;
+    border-top: solid #4aaaa5 8px;
+  }
+
+
+  /* Portfolio page contents*/
+  #portfolio{
+    padding: 20px 20px 0px 20px;
+    height:850px;
+    border: rgb(233, 233, 233) solid 1px;
+}
+
+  .pic1{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 10px 10px 10px 0px;
+}
+
+.profilepic1 {
+  text-align: left;
+  margin: 10px 50px 10px 0px;
+  float: left;
+}
+
+.text1{
+  position: absolute;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 240px;
+  margin-top:130px;
+  padding:10px;
+}
+
+  /* Contact page contents*/
+
+  #bodylayoutp {
+    background-color:#ffffff;
+    width: 70%;
+    margin: 20px 15% 75px 15%;
+  }
+
+  #contact {
+    color: #777777;
+    padding: 20px 20px 0px 20px;
+    height: 550px;
+    border: rgb(233, 233, 233) solid 1px;
+    margin-bottom: 200px;
+  }
+
+  .input{
+    margin: 15px 5px;
+  }
+
+  .input label{
+    display:block;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  input{
+    margin-left: 0px;
+  }
+
+ .input input, .input textarea{
+    width:100%;
+    border: #e2e2e2 solid 1px;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .input input{
+    height:30px;
+}
+
+ .input textarea{
+    height:100px;
+}
+
+  .submit{
+  float: left;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 5px;
+  width:100px;
+  margin-left: 5px;
+}
+
+/* Media Responsiveness*/
+
+@media screen and (max-width:980px)
+{
+  #name, #namec {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    padding: 35px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width:330px;
+    float: left;
+    margin: 0px 0px 0px 5%;
+  }
+
+  .headlist {
+      color: #777777;
+      float: right;
+      margin: 40px 10px 0px 0%;
+    }
+
+    .headlist ul{
+      list-style: none;
+      margin-right: 20% px;
+      margin-top: 0;
+   }
+
+   #bodylayout, #bodylayoutp {
+    background-color:#ffffff;
+    width: 65%;
+    margin: 20px 30% 105px 5%;
+    border: rgb(233, 233, 233) solid 1px;
+  }
+
+  #aboutme {
+    color: #777777;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    height: 850px;
+  }
+
+  .pic1{
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+  .profilepic1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.text1{
+ 
+  margin-bottom: 20px;
+  width: 24%;
+}
+}
+
+@media screen and (max-width:768px)
+{
+  #name, #namec {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    padding: 35px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width:330px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .headlist {
+      color: #777777;
+      float: right;
+      margin: 40px 10px 0px 0%;
+    }
+
+    .headlist ul{
+      list-style: none;
+      margin-right: 20% px;
+      margin-top: 0;
+   }
+
+   #abouthead {
+    display: inline;
+    margin-left: 0px;
+  }
+
+
+   #bodylayout {
+    background-color:#ffffff;
+    width: 100%;
+    height: 850px;
+    margin: 20px 0% 205px 0%;
+    border: rgb(233, 233, 233) solid 1px;
+  }
+    #bodylayoutp {
+    background-color:#ffffff;
+    width: 100%;
+    height: 550px;
+    margin: 20px 0% 205px 0%;
+    border: rgb(233, 233, 233) solid 1px;
+    }
+
+  #aboutme {
+    color: #777777;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    height: 850px;
+  }
+
+  .profilepic1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+}
+
+.text1{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+}
+
+@media screen and (max-width:640px)
+{
+  
+  #name, #namec {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    width:100%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .headlist {
+      color: #777777;
+      float: left;
+      margin: 0px 0px 0px 15%;
+    }
+
+    .headlist ul{
+      list-style: none;
+      margin-right: 20px;
+      margin-top: 20px;
+   }
+
+   #abouthead {
+    display: inline;
+    margin-left: 20px;
+  }
+
+   #bodylayout {
+    background-color:#ffffff;
+    width: 100%;
+    height: 1200px;
+    margin: 20px 0% 105px 0%;
+    border: rgb(233, 233, 233) solid 1px;
+  }
+
+  #aboutme {
+    color: #777777;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    height: 1200px;
+    
+  }
+
+  #profilepic{
+    position: relative;
+    width: 90%;
+    height: 20%;
+   }
+
+   .pic1{
+    width: 100%;
+    margin: 0% 20%;
+}
+
+.profilepic1{
+  width: 60%;
+}
+
+.text1{
+ width: 53%;
+}
+
+#portfolio{
+  padding: 20px 20px 0px 20px;
+  height:1200px;
+}
+}
