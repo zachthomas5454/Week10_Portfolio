@@ -73,7 +73,7 @@
   }
 
   #bodylayout {
-    background-color:rgba(8, 8, 8, 0.95);
+    background-color:rgba(8, 8, 8, 0.90);
     width: 70%;
     margin: 20px 15% 55px 15%;
     border: 5px solid orangered;
@@ -169,7 +169,7 @@
   /* Contact page contents*/
 
   #bodylayoutp {
-    background-color:rgba(8, 8, 8, 0.95);
+    background-color:rgba(8, 8, 8, 0.9);
     border: 5px solid orangered;
     width: 70%;
     margin: 20px 15% 75px 15%;
