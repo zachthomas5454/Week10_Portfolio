@@ -149,21 +149,52 @@
     margin-bottom: 20px;
     text-align: left;
     margin: 10px 10px 10px 0px;
+    
 }
 
 .profilepic1 {
   text-align: left;
   margin: 10px 50px 10px 0px;
   float: left;
+  border: orangered solid 2px;
 }
 
 .text1{
   position: absolute;
-  background-color: #4aaaa5;
+  background-color: orangered;
   color: #ffffff;
-  width: 240px;
-  margin-top:130px;
+  width: 500px;
+  margin-top:150px;
   padding:10px;
+}
+
+.desc1, .desc2, .desc3 {
+  position: absolute;
+  border: black solid 2px;
+  height: 200px; width: 500px;
+  margin-left:500px;
+  background-image: linear-gradient(-180deg, rgb(8, 8, 8), rgb(44, 44, 44));
+}
+
+.desc1{
+  margin-top:40px;
+}
+.desc2{
+  margin-top:280px;
+}
+.desc3{
+  margin-top:525px;
+}
+
+.hdr{
+  color: #ffffff;
+}
+
+.para{
+  color: #ffffff;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 1;
 }
 
   /* Contact page contents*/
