@@ -1,53 +1,225 @@
- <!--The following file developed is defined as HTML for the Computer to understand-->
 <!DOCTYPE html>
- <!--The following represents the root of HTML file-->
- <!--The HTML file language is English - United States-->
-<html lang="en-us">
+<html lang="en">
 
- <!--The head charset is defined-->
- <!--The link to CSS file is defined-->
-  <head>       
+<head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <meta name="viewport" content= "width-device-width, initial-scale=1">  
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zachariah Thomas</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-    <!--The body represents the main contents of the document--> 
-  <body>
-        <div id="toplayout">
-          <nav>
-            <header id="headlayout">
-             <h2 id="name">
-                    Zachariah Thomas
-             </h2>
-            </header>
-             <div class="headlist">
-               <ul>
-                    <li id="abouthead"><a class="link" href="index.html">About</a></li>
-                    <li id="portfoliohead"><a class="link" href="portfolio.html">Portfolio</a></li>
-                    <li id="contacthead"><a class="link" href="contact.html">Contact</a></li>
-               </ul>
-             </div>  
-          </nav> <br>
-          <div id="bodylayout">
-             <div id="aboutme">
-             <h2 id=h21>About Me</h2> <hr>
-             <img id="profilepic" src="assets/images/IMG_4563.JPG" height="150px" width="250px" alt="Profile Picture"  />
-             <p id="p1" text-align="justify" >Hello, my name is Zachariah. I am the guy whom you see in the picture on the side. I was born in the year 1991 in the city of Mumbai on a Saturday morning when the world was just 
-               waking up from sleep. Completed my school and college in Mumbai and got placed in a reputed engineering firm as a Controls System Project Engineer in 2013. No looking back since that day. Growing professionally 
-               admist the challenges that stood on the way, life has beeen rough in its own way. Moved into USA in 2018. Worked as factory floor worker for a while before being rewarded with Controls System 
-               engineering job on the merits of my previous job experience in the same field. I currently live in Philadelphia,PA with my parents and sister. </p>
-             <p id="p2"></p>
-             <p id="p3">Currently, I am a part-time student at an Online Coding Course held by University of Pennsylvania with an ambition of developing and broadening my knowledge and concepts in logic 
-               reasoning and coding. A full-stack developer who understands how HTML, CSS and Javascript works at the front-end. I learn and get inspired by beautiful developers out there
-               who are building great things and helping people solve their problem.
-               I am innovative and always eager to understand the design and build beautiful User Interface </p>
-             </div> 
-          </div>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
         </div>
-        <div id="footlayout">
-          <footer>Copyright©</footer>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Zachariah Thomas</h1>
+            <h6>Full-Stack Developer</h6>
         </div>
-  </body>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="500">
+                <img src="assets/images/profile.jpg" alt="">
+            </div>
+            <div class="about-deatils" data-aos="fade-left" data-aos-delay="1000">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p class="p1">I'm a Full Stack Developer from Philadelphia, USA </p>
+                <p class="p2">As a student I enjoy taking problems and turning them into simple and
+                    <br>beautiful interface designs. I love the concept of adding logic and always
+                    <br> strive to write elegant and effcient code, whether it be HTML, CSS or jQuery.
+                    <br><br>When I'm not coding, you'll find me in the gym or at home watching netflix.</p><br><br>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="mailto:zachariahthomas54@yahoo.com" class="icon-link">
+                                <i class="fas fa-envelope-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/zachariaht3" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/zachthomas5454" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/zach-t-7zt05475" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What can I do for you</h6>
+            </div>
+        </div>
+        <div class="my-skills">
+            <div class="skill" data-aos="fade-in" data-aos-delay="500">
+                <div class="icon-container">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h1>Web Design</h1>
+                <p> Styling and layout of pages with content, including text and images</p>
+            </div>
+            <div class="skill" data-aos="fade-in" data-aos-delay="1000">
+                <div class="icon-container">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h1>Web Development</h1>
+                <p> Designing, coding and modifying websites, from layout to function</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects and Activities</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="500">
+                    <img src="assets/images/VIEWS.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1000">
+                    <h6>Web Development</h6>
+                    <h1>VIEWS</h1>
+                    <p> A team project application build for users to easily get details of the weather forecast and
+                        the upcoming events around 25 miles radius of the location clicked on the map.
+                        <br> <br> Technology Used: HTML, CSS, Bootstrap, JavaScript</p>
+                    <a href="https://kkesari.github.io/VIEWS/" class="cta">View Demo</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                    <h6>Web Design/ Development</h6>
+                    <h1>TRIVIA Game</h1>
+                    <p> A fun challenge game where users have eight questions to answer. At the end of timer or on
+                        clicking done, the number of correct, incorrect and unanswered answers are shown.
+                        <br> <br>Technology Used: HTML, CSS, Bootstrap, JavaScript</p>
+                    <a href="https://zachthomas5454.github.io/TriviaGame/" class="cta">View Demo</a>
+                </div>
+                <div class="portfolio-img has-margin-right" data-aos="fade-left" data-aos-delay="2000">
+                    <img src="assets/images/TriviaGame.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="2500">
+                    <img src="assets/images/Train.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="3000">
+                    <h6>Web Design/ Development</h6>
+                    <h1>Train-Schedule</h1>
+                    <p> Application build for users to get information on the next arrival time of <br> the train and
+                        minutes remaining to arrive. User needs to input the Train <br> Name, Destination, First Train
+                        Time and Train Frequency
+                        <br> <br> Technology Used: HTML, CSS, Bootstrap, jQuery</p>
+                    <a href="https://zachthomas5454.github.io/Train-Scheduler/" class="cta">View Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Education and Course</h1>
+                <h6>Covered in Course</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="500">
+                <ul>
+                    <li class="date" data-date="2019-2020">
+                        <a href="" class="prjname">
+                            <h1>Penn LPS - Coding Booting Camp</h1>
+                        </a><br>
+                        <p>A full-stack online development course focusing on the basics and advanced sections 
+                            of front-end development technologies like HTML, CSS , Bootstrap, JavaScript and JavaQuery.
+                            The course also covers back-end development technologies like Mongo DB, Express.js, Angular.js 
+                            and Node.js
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="500">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name...." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email...." required>
+                <label for="service">Services:</label>
+                <select name="service" id="service">
+                    <option value="">Web Design</option>
+                    <option value="">Web Development</option>
+                    <option value="">Web Design/Developemnt</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up">
+            </i>
+        </div>
+        <p>&copy; 2019 Zachariah Thomas</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
 </html>
